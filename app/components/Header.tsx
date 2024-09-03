@@ -19,7 +19,7 @@ const Header = () => {
       <div className='container'>
         <div className='navbar'>
           <div className='logo'>
-            <Image src='/images/logo.jpg' width={275} height={58} alt='logo' priority={true} />
+            <Image src='/images/logo.jpg' width={275} height={58} alt='logo' priority={true} className='responsive-logo' />
           </div>
           <div className='menu-icon' onClick={() => setMenuOpen(!menuOpen)}>
             <FaBars />

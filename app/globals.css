@@ -78,8 +78,8 @@ picture {
 }
 .container {
   max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 .not-found {
   text-align: center;
@@ -96,11 +96,7 @@ picture {
   position: sticky;
   top: 0;
 }
-/* .container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 20px;
-} */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -132,6 +128,14 @@ picture {
   justify-content: space-between;
   width: 30px;
   height: 100%;
+}
+.responsive-logo {
+  width: 100%;
+}
+@media (max-width: 320px) {
+  .responsive-logo {
+    width: 80%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -552,4 +556,3 @@ picture {
   }
 }
 /* end of rooms fitler*/
-
